@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User" time="4.557" tests="1" failures="0" errors="0">
+   <testsuite name="User" tests="1" failures="0" errors="0" time="4.557" skipped="0" timestamp="2022-10-13 16:26:52" hostname="gprad - LAPTOP-SA0B1K67" id="Test Suites/User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gprad\\Katalon Studio\\Test_API\\Reports\\20221013_162647\\User\\20221013_162647"/>
+         <property name="logFiles" value="C:\\Users\\gprad\\Katalon Studio\\Test_API\\Reports\\20221013_162647\\User\\20221013_162647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gprad - LAPTOP-SA0B1K67"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+      </properties>
+      <testcase name="Test Cases/getuserdetail" time="4.04" classname="Test Cases/getuserdetail" status="PASSED">
+         <system-out><![CDATA[2022-10-13 16:26:52 - [TEST_CASE][PASSED] - Test Cases/getuserdetail: Test Cases/getuserdetail
+
+2022-10-13 16:26:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("getuserdetail")): Send request successfully
+
+2022-10-13 16:26:56 - [MESSAGE][INFO] - HAR: C:\Users\gprad\Katalon Studio\Test_API\Reports\20221013_162647\User\20221013_162647\requests\main\0.har
+
+2022-10-13 16:26:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-10-13 16:26:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-10-13 16:26:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-10-13 16:26:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2022-10-13 16:26:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-13 16:26:52 - [TEST_SUITE][PASSED] - User: Test Cases/getuserdetail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
